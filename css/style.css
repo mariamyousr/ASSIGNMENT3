@@ -1,0 +1,108 @@
+
+
+
+
+.BOOKMARK{
+   
+    background-color: #f7ecde;
+    height: 100vh;
+}
+   
+
+
+
+
+div h1{
+    font-size: 50px;
+    font-family: "Pacifico", cursive;
+    color: #352e28;
+    position: relative;
+
+    
+    
+}
+
+h1::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 25%;
+    left: 0;
+    bottom: 10px;
+    background-color: #fec16096;
+    transition: height 350ms;
+    z-index: 1;
+   
+}
+
+
+
+ .line-1{
+    content: "";
+    position: absolute;
+    width: 75%;
+    border-bottom: 1px dashed black;
+    bottom: 80%;
+    
+    
+ }
+ .line-2{
+    content: "";
+    position: absolute;
+    width: 75%;
+    border-bottom: 1px dashed black;
+   top: 65%;
+ }
+
+
+div h2{
+    font-family: "Righteous", cursive;
+    font-size: 25px;
+    background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+   
+}
+
+
+
+ .btn{
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #d1512d;
+    --bs-btn-border-color: #d1512d;
+  
+}
+.btn:hover{
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #bb4120;
+    --bs-btn-hover-border-color: #a03315;
+    transition: 0.5s;
+}
+
+.rules i{
+    color: #bb4120;
+}
+
+.style-circles span {
+    display: block;
+    width: 20px;
+    height: 20px;
+}
+
+
+.style-circles span:nth-child(1) {
+    background-color: #f15f5d;
+}
+
+.style-circles span:nth-child(2) {
+    background-color: #4db748;
+}
+.style-circles span:nth-child(3) {
+    background-color: #febe2e;
+}
+.rules p{
+    
+    font-size: 20px;
+    font-weight: 40px;
+}
